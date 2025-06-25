@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Adding preload for font -->
+    <link
+      rel="preload"
+      href="./static/PPNeueMontreal-Medium.f9b3b92f.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+
+    <!-- Linking a new file to provide the Icons for hamburger and menu -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Locomotive css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <title>Ashutosh- Let's work together!</title>
+
+    <!-- Previously you were refering to the css file in the wrong manner -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/overlays.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="icon" type="image/x-icon" href="./static/logo.png" />
+    <!-- <link rel="stylesheet" href="../CSS/responsive.css"> -->
+  </head>
+
+  <style>
+    #main {
+      height: max-content;
+    }
+  </style>
+
+  <body>
+    <section class="loader-pre">
+      <div class="loader">
+        <div class="mainname">Ashutosh Kumar Tiwari</div>
+        <div class="portnyear">PORTFOLIO</div>
+      </div>
+    </section>
+    <section id="overlay-1">
+      <div class="cover-page">
+        <div class="pre-overlay-nav">
+          <div class="overlay-nav">
+            <ul>
+              <li>Case Study</li>
+              <li>
+                <a href="https://github.com/ashutoshdebug/Python-based-Hotel-Management-System.git" target="_blank"
+                  >Visit live link</a
+                >
+              </li>
+              <li>LodGix</li>
+              <li><button class="close-btn">Close</button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="overlay-content">
+          <div class="overlay1-body">
+            <p>
+              This Python Tkinter-based hotel management app with SQLite/MySQL
+              offers a GUI for handling guest check-ins, bookings, room
+              filtering, staff records, and billing. It replaces manual work,
+              reduces errors, and is easily extendable with features like themed
+              UIs and analytics.
+            </p>
+            <div class="project-info">Project Info</div>
+            <div class="overlay1-hr">
+              <hr />
+            </div>
+            <div class="project-year">
+              <ul>
+                <li>YEAR</li>
+                <li>2022</li>
+              </ul>
+            </div>
+          </div>
+          <div class="overlay1-imagescroll">
+            <img src="./static/piechart.png" alt="Image 1" />
+            <img src="./static/dashboard.png" alt="Image 1" />
+            <img src="./static/magnified_globe.png" alt="Image 1" />
+            <img src="./static/team.png" alt="Image 1" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="overlay-2">
+      <div class="cover-page2">
+        <div class="pre-overlay-nav2">
+          <div class="overlay-nav2">
+            <ul>
+              <li>Case Study</li>
+              <li>
+                <a href="https://github.com/ashutoshdebug/rock-paper-scissors.git" target="_blank"
+                  >Visit live link</a
+                >
+              </li>
+              <li>Navitix</li>
+              <li><button class="close-btn2">Close</button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="overlay-content2">
+          <div class="overlay-body2">
+            <p>
+              This Python Tkinter-based Rock-Paper-Scissors game offers a
+              polished GUI with login/signup (SQLite), scorekeeping, and a
+              leaderboard. It uses random for game logic, Pillow for images, and
+              provides a full desktop experience with real-time results and user
+              account management.
+            </p>
+            <div class="project-info2">Project Info</div>
+            <div class="overlay-hr2">
+              <hr />
+            </div>
+            <div class="project-year2">
+              <ul>
+                <li>YEAR</li>
+                <li>2023</li>
+              </ul>
+            </div>
+          </div>
+          <div class="overlay-imagescroll2">
+            <img src="./static/compass.png" alt="Image 1" />
+            <img src="./static/futuristic_globe.png" alt="Image 1" />
+            <img src="./static/glowing_road.png" alt="Image 1" />
+            <img src="./static/nav_dashboard.png" alt="Image 1" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <header>
+      <nav>
+        <div id="navbar">
+          <div class="left-pre">
+            <!--New-->
+            <div class="left"><a href="./">Ashutosh</a></div>
+          </div>
+          <div class="current" id="currently">
+            Currently Working as<br />Tech Intern
+          </div>
+          <div class="reside" id="resident">
+            Based in
+            <a
+              href="https://maps.app.goo.gl/cSVyNEG2ab1TJkXQ9"
+              target="_blank"
+              class="hover-underline-animation-curres"
+              >Jabalpur,</a
+            ><br /><a
+              href="https://maps.app.goo.gl/2NbvdkqwAW6M8Wyd7"
+              class="hover-underline-animation-curres"
+              target="_blank"
+              >Madhya Pradesh, Bharat</a
+            >
+          </div>
+
+          <div class="links-pre">
+            <!--New-->
+            <div class="links" id="big-nav">
+              <a href="./" class="hover-underline-animation-blend">Home</a
+              ><span class="comma">,</span>
+              <a href="/about" class="hover-underline-animation-blend"
+                >About Me</a
+              ><span class="comma">,</span>
+              <a href="/projects" class="hover-underline-animation-blend"
+                >Projects</a
+              ><span class="comma">,</span>
+              <a href="/contact" class="hover-underline-animation-blend"
+                >Contact Me</a
+              >
+            </div>
+          </div>
+          <div class="hamburger" style="display: none">
+            <i class="fa fa-bars" style="color: #cdcdcd"></i>
+            <!-- here-->
+          </div>
+        </div>
+        <div class="side-nav" style="display: none">
+          <div class="hamburger">
+            <i class="fa fa-bars" style="color: white"></i>
+            <!-- here-->
+          </div>
+          <div class="nav-item-cnt">
+            <a href="./" class="navitem"
+              ><span class="underline nav-item-underline">Home</span></a
+            >
+            <!-- Here-->
+            <a href="/about" class="navitem"
+              ><span class="hover-underline-animation-nav nav-item-underline"
+                >About Me</span
+              ></a
+            >
+            <a href="/projects" class="navitem"
+              ><span class="hover-underline-animation-nav nav-item-underline"
+                >Projects</span
+              ></a
+            >
+            <a href="/contact" class="navitem"
+              ><span class="hover-underline-animation-nav nav-item-underline"
+                >Contact Me</span
+              ></a
+            >
+            <div class="smallreswork">
+              <div class="currwork">
+                <div class="current" id="currently">
+                  Currently Working as<br />Tech Intern
+                </div>
+              </div>
+              <div class="res">
+                <div class="reside" id="resident">
+                  Based in
+                  <a
+                    href="https://maps.app.goo.gl/cSVyNEG2ab1TJkXQ9"
+                    target="_blank"
+                    class=""
+                    >Jabalpur,</a
+                  ><br /><a
+                    href="https://maps.app.goo.gl/2NbvdkqwAW6M8Wyd7"
+                    class=""
+                    target="_blank"
+                    >Madhya Pradesh, Bharat</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="main">
+      <section id="home" class="endev">
+        <div class="uppersection animation-reveal">
+          <div class="uleft">
+            <div class="idk">
+              <div class="enthusiatic">
+                <span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.13"
+                  >E</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.12"
+                  >N</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.11"
+                  >T</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.1"
+                  >H</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.09"
+                  >U</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.08"
+                  >S</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.07"
+                  >I</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.06"
+                  >A</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.05"
+                  >S</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.04"
+                  >T</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.03"
+                  >I</span
+                ><span
+                  class="enthusiaticu"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.02"
+                  >C</span
+                >
+              </div>
+              <div class="developer">
+                <span
+                  class="developeru"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.13"
+                  >D</span
+                ><span
+                  class="developeru"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.12"
+                  >E</span
+                ><span
+                  class="developeru"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.11"
+                  >V</span
+                ><span
+                  class="developeru"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.1"
+                  >E</span
+                ><span
+                  class="developeru"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.09"
+                  >L</span
+                ><span
+                  class="developeru"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.08"
+                  >O</span
+                ><span
+                  class="developeru"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.07"
+                  >P</span
+                ><span
+                  class="developeru"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.06"
+                  >E</span
+                ><span
+                  class="developeru"
+                  data-scroll
+                  data-scroll-speed="6"
+                  data-scroll-delay="0.05"
+                  >R</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="kimage" class="dev animation-reveal">
+        <div class="dimg">
+          <img
+            src="./static/replace-k.jpg"
+            alt="Developer Image"
+            id="devimage"
+          />
+        </div>
+        <div class="pre-eyes">
+          <div class="eyes">
+            <div class="eye">
+              <div class="pupil"></div>
+            </div>
+            <div class="eye">
+              <div class="pupil"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="middle1">
+        <div class="middle">
+          <div
+            class="lowersection animation-reveal"
+            data-scroll
+            data-scroll-speed="1"
+            data-scroll-direction="horizontal"
+          >
+            <div class="firstname">
+              <span class="name">A</span><span class="name">S</span
+              ><span class="name">H</span><span class="name">U</span
+              ><span class="name">T</span><span class="name">O</span
+              ><span class="name">S</span><span class="name">H</span>
+            </div>
+            <div class="surname">
+              <span class="name">K</span><span class="name">r</span
+              ><span class="name">.</span> <span class="name">T</span
+              ><span class="name">I</span><span class="name">W</span
+              ><span class="name">A</span><span class="name">R</span
+              ><span class="name">I</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="dowcre">
+        <div class="arrowncreative animation-reveal">
+          <div
+            class="arrow"
+            data-scroll
+            data-scroll-speed="-1"
+            data-scroll-delay="0.12"
+          >
+            ↓
+          </div>
+          <div class="creative">
+            As a web developer,<br />
+            I fuse code with creativity, <br />sculpting digital masterpieces.
+          </div>
+        </div>
+      </section>
+      <section
+        class="aboutme animation-reveal"
+        data-scroll
+        data-scroll-speed="3"
+        data-scroll-delay="0.15"
+      >
+        <div class="aboutpara">
+          As a developer, I began my journey with Python, building a solid
+          foundation in programming and exploring the world of data science
+          through libraries like NumPy, pandas, matplotlib, and scikit-learn.
+          Over time, I expanded my skill set into web development, mastering
+          HTML, CSS, JavaScript, and React to bring dynamic interfaces to life.
+          <br id="aboutmef" />
+          <br />
+          With a strong interest in machine learning and AI, I’ve applied my
+          skills to practical projects and pursued certifications to deepen my
+          expertise. I’m passionate about building responsive, user-centric web
+          applications and developing intelligent systems that blend
+          functionality with creativity.
+        </div>
+      </section>
+      <section class="projectemplate">
+        <div class="projecthead1 contactform">
+          <div>Recent<br />Projects &#58;&#41;</div>
+          <!-- <div>Let's get<br />in touch!</div> -->
+        </div>
+        <div class="project-one">
+          <div class="headdiv">
+            <a href="" class="cover-link"
+              ><span
+                class="hover-underline-animation-project"
+                style="cursor: pointer"
+                >LodGix</span
+              ></a
+            >
+          </div>
+          <div class="imgdiv">
+            <a href="" class="cover-link"
+              ><img
+                src="./static/replace-Q.png"
+                alt="Prospex Image"
+                width="100%"
+            /></a>
+          </div>
+        </div>
+        <div class="project-two">
+          <div class="headdiv">
+            <a href="#" class="cover-link2"
+              ><span
+                class="hover-underline-animation-project"
+                style="cursor: pointer"
+                >PyRPS</span
+              ></a
+            >
+          </div>
+          <div class="imgdiv">
+            <a href="" class="cover-link2"
+              ><img
+                src="./static/replace-AI.png"
+                alt="Navitix Image"
+                width="100%"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <div class="projecthead contactform">
+        <div>Want to build<br />something creative?</div>
+        <div>Let's get<br />in touch!</div>
+      </div>
+      <section id="contact">
+        <div class="gmail">
+          <a href="mailto:ashutoshktspam@gmail.com" class=""
+            ><span class="gmaila hover-underline-animation">ASHUTOSHKTSPAM</span
+            ><br /><span class="gmaila hover-underline-animation"
+              >@GMAIL.COM</span
+            ></a
+          >
+        </div>
+      </section>
+      <!-- <hr style="border: 0.5px solid black; margin: 10px 0 0 0;"> -->
+      <footer>
+        <div class="info">
+          <div class="namendesignation">
+            Ashutosh Kumar Tiwari <br />
+            Creative Developer
+          </div>
+          <div class="social">
+            <a
+              href="https://www.instagram.com/ashutosht05/"
+              class="hover-underline-animation-footer"
+              target="_blank"
+              >Instagram</a
+            >,
+            <a
+              href="https://twitter.com/ashutosht05"
+              class="hover-underline-animation-footer"
+              target="_blank"
+              >Twitter</a
+            >,
+            <a
+              href="https://github.com/ashutoshdebug"
+              class="hover-underline-animation-footer"
+              target="_blank"
+              >Github</a
+            >,
+            <a
+              href="https://linkedin.com/in/ashutosht05"
+              target="_blank"
+              class="hover-underline-animation-footer"
+              >LinkedIn</a
+            >
+          </div>
+          <div class="developed">
+            Developed and designed by <br />
+            <span class="hover-underline-animation-footer"
+              ><a href="https://github.com/ashutoshdebug" target="_blank"
+                >Ashutosh</a
+              ></span
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+    <span id="contactme"></span>
+    <!-- You are not getting single lerp effect in enthusiastic because width .enthusiastic is very low -->
+  </body>
+  <script src="./js/index.js"></script>
+  <script src="./js/overlays.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script>
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector("#main"),
+      smooth: true,
+      lerp: 0.1,
+    });
+  </script>
+  <script>
+    // Scroll update all pages
+
+    document.addEventListener("DOMContentLoaded", function () {
+      function ScrollUpdateDelay() {
+        setTimeout(function () {
+          scroll.update();
+        }, 500);
+      }
+
+      ScrollUpdateDelay();
+    });
+
+    // Scroll Update trigger
+
+    function ScrollUpdateTrig() {
+      setTimeout(function () {
+        scroll.update();
+      }, 500);
+    }
+  </script>
+  <!--   Locomotive scroll was not going till bottom end so chatgpt gave me this solution -->
+  <script>
+    window.onload = function () {
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector("#main"),
+        smooth: true,
+      });
+      scroll.update(); // Refresh to recalculate height
+    };
+  </script>
+</html>
