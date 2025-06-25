@@ -43,7 +43,7 @@ A responsive and modern **portfolio website** developed using **HTML**, **CSS**,
 **Ashutosh – Technical Intern at AK Infratech**  
 - GitHub: [ashutoshdebug](https://github.com/ashutoshdebug)  
 - Email: [ashutoshktspam@gmail.com](mailto:ashutoshktspam@gmail.com)  
-- LinkedIn: [LinkedIn](linkedin.com/in/ashutosht05)  
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ashutosht05)  
 
 ---
 
