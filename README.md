@@ -1,19 +1,50 @@
+# AK Infratech – Tech Intern Portfolio 🌐
 
-# Portfolio Website
+**Repository:** [AK_INFRATECH_PROJECT2](https://github.com/ashutoshdebug/AK_INFRATECH_PROJECT2.git)  
+**Role:** Technical Intern at AK Infratech  
 
-This is a website to showcase all of my abilities and skills. Also don't forget to provide your valuble feedback on the same.
+---
+
+## 🎯 Project Overview
+
+A responsive and modern **portfolio website** developed using **HTML**, **CSS**, **JavaScript**, and **Locomotive Scroll** for smooth scrolling and subtle animations. This project reflects my work as a Technical Intern at AK Infratech.
+
+---
+
+## ✨ Key Features
+
+- Smooth scrolling and parallax effects with **Locomotive Scroll**
+- Responsive design for desktop, tablet, and mobile
+- Clean, minimal UI with clear sections: Home, About, Projects, Contact
+- Scroll-triggered animations for interactive user experience
+- Organized file structure for easy maintenance and scalability
+
+---
+
+## 🛠 My Contributions as a Tech Intern
+
+- Developed all page layouts using **HTML** and **CSS**
+- Integrated **Locomotive Scroll** for enhanced smooth scrolling and visual effects
+- Handled responsive styling to ensure cross-device compatibility
+- Managed asset organization and project structure
+- Scripted interactive behavior using **JavaScript**
+
+---
+
+## 📸 Visual Preview
+
+![image](https://github.com/user-attachments/assets/eabc683b-2080-472a-afad-e4a085db9d88)
 
 
-## Authors
+---
 
-- [@kirtikt](https://www.github.com/kirtikt)
+## 📫 Connect with Me
 
-## Contributor
+**Ashutosh – Technical Intern at AK Infratech**  
+- GitHub: [ashutoshdebug](https://github.com/ashutoshdebug)  
+- Email: [ashutoshktspam@gmail.com](mailto:ashutoshktspam@gmail.com)  
+- LinkedIn: [LinkedIn](linkedin.com/in/ashutosht05)  
 
-- [@ashutoshdebug](https://www.github.com/ashutoshdebug)
+---
 
-
-## Feedback
-
-If you have any feedback, please reach out to us at kitikt09@gmail.com
-
+> *“Creating smooth, user-friendly web experiences with every scroll.”*  
